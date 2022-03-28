@@ -6,16 +6,16 @@ def test_div_5():
     assert result == True
 
 def test_div_7():
-    num=3
+    num=13
     result=di.div_7(num)
     assert result == False
 
 def test_div_9():
-    num=9
+    num=18
     result=di.div_9(num)
     assert result == True
 
 def test_div_10():
-    num=8
+    num=9
     result=di.div_10(num)
     assert result == False
